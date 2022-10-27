@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	max-width: 1280px;
+	margin:0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 90vh;
+	min-height: 800px;
+	padding:40px 2%;
+	/*max-height: 700px;*/
+	background-size: cover;
+	background-position: center;
+	background-image: url('../imagens/capa.png');
+	font-weight: 300;
+}
+
+header nav{
+	float: right;
+}
+
+nav.mobile-menu{
+    background-image: url(../imagens/menu.png);
+    background-repeat: none;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    background-size: 100% 100%;
+}
+
+nav.mobile-menu ul:hover{
+    opacity: 1;
+}
+
+nav.mobile-menu ul{
+    transition: 1s;
+    opacity: 0;
+    width: 100%;
+    background-color: lightgray;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100%;
+}
+
+nav.mobile-menu li{
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+nav.mobile-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+header .logo{
+	position: relative;
+	top:-10px;
+	float: left;
+	width: 160px;
+	height: 40px;
+	background-image: url('../imagens/logo-danki.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+header nav.desktop-menu ul{
+	list-style-type: none;
+}
+
+header nav.desktop-menu li{
+	float: left;
+	padding:0 20px;
+}
+
+header nav.desktop-menu li a{
+	text-decoration: none;
+	color: white;
+}
+
+.chamada1{
+	max-width: 600px;
+	float: right;
+	margin:200px 150px;
+}
+
+.chamada1 h2{
+	font-weight: 300;
+	font-size: 40px;
+	color: white;
+}
+
+.chamada1 p{
+	font-size: 15px;
+	color: white;
+	margin-top:10px;
+}
+
+section.sessao1{
+	width: 100%;
+	background-color: #472562;
+	padding:0 2%;
+	height: 400px;
+}
+
+section.sessao1 .container{
+	max-width: 1000px;
+	height: 100%;
+}
+
+.texto-sessao1{
+	float: left;
+	width: 50%;
+	position: relative;
+	left: 55px;
+	margin-top:60px;
+	padding-left: 80px;
+	color: white;
+}
+
+.texto-sessao1 h2{
+	font-size: 26px;
+	font-weight: 300;
+}
+
+.texto-sessao1 p{
+	margin-top:20px;
+	font-size: 15px;
+}
+
+.texto-sessao1 ul{
+	font-size: 15px;
+	list-style-position: outside;
+	padding-left: 15px;
+}
+
+.texto-sessao1 ul li{
+	width: 100%;
+	margin-top:8px;
+}
+
+.btn1-texto{
+	background-color: #FF703D;
+	width: 165px;
+	height: 44px;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+	margin-top:30px;
+	text-align: center;
+	line-height: 44px;
+	border-radius: 30px;
+}
+
+.device-sessao1{
+	float: left;
+	width: 50%;
+	position: relative;
+	top:-30px;
+	height: calc(100% + 30px);
+	background-image: url('../imagens/device.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.sessao2{
+    padding: 40px 2%;
+    background-color: white;
+    text-align: center;
+}
+
+.sessao2 .container{
+    max-width: 1000px;
+}
+
+.sessao2 h2{
+    color: #272663;
+    font-weight: 300;
+}
+
+.sessao2 p{
+    margin-top: 30px;
+    color: #272663;
+    display: inline-block;
+    max-width: 700px;
+}
+
+.sessao2 img{
+    width: 100%;
+}
