@@ -88,6 +88,7 @@
     
 }
 
+
 @media screen and (min-width:768px) {
     nav.mobile-menu {
         display: none;
@@ -98,3 +99,21 @@
     }
 
 }
+
+
+@media screen and (max-width: 580px){
+    .part1{
+        width: 100%;
+    }
+
+    .part2{
+        width: 100%;
+    }
+
+    .sessao2 img{
+        top: 16px;
+        margin-top: 20px;
+    }
+}
+
+

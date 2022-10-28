@@ -319,3 +319,9 @@ section.sessao1 .container{
 	border-radius: 8px;
 	background-color: rgb(200,200,200);
 }
+
+/*Aqui está começando a sessao 4*/
+section.sessao4{
+	background-color: #472563;
+	padding: 100px 0;
+}
