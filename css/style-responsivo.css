@@ -50,7 +50,7 @@
         text-align: center;
     }
 
-    .container{
+    .section1 .container{
         display: inline-block;
         text-align: center;
     }
@@ -100,11 +100,13 @@
     }
 
     .map-wraper{
-        display: inline-block;
         float: none;
         width: 100%;
+        padding:0 8%;
+        margin-top:40px;
     }
-
+    
+    
     .map-wraper3{
         margin-top:10px;
         width: 100%;
@@ -149,6 +151,19 @@
     .sessao2 img{
         top: 16px;
         margin-top: 20px;
+    }
+
+    footer{
+        text-align: center;
+    }
+    
+    footer p:nth-of-type(1){
+        float: none;
+    }
+    
+    footer p:nth-of-type(2){
+        float: none;
+        margin-top: 8px;
     }
 }
 
