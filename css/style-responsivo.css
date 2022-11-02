@@ -85,9 +85,45 @@
     }
     /*~~~~CHAMADA~~~~*/
     /*~~~~MAIS INFORMAÇÕES~~~~*/
+    .sessao4 .container{
+        text-align: center;
+    }
     
-}
+    .form{
+        display: inline-block;
+        float: none;
+        width: 100%;
+    }
 
+    .form p{
+        display: inline-block;
+    }
+
+    .map-wraper{
+        display: inline-block;
+        float: none;
+        width: 100%;
+    }
+
+    .map-wraper3{
+        margin-top:10px;
+        width: 100%;
+        padding-top: 100%;
+        display: inline-block;
+        max-width: none;
+        position: relative;
+    }
+    
+    .map-wraper2{
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 100%;
+        height: 100%;
+        padding-top:0;
+    }
+
+}
 
 @media screen and (min-width:768px) {
     nav.mobile-menu {
