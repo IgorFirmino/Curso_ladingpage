@@ -28,11 +28,9 @@ window.onload = function(){
       pixelOffset: new google.maps.Size(0,20)
     });
 
-    google.maps.event.addListener(marker,'click',function(){
-      infoWindow.open(map,marker)
-    })
-
   }
+
+  
 
   initialize();
   var conteudo = '<p style="color:black;font-size:15px; padding:10px 0;">Meu Endereço </p>'
